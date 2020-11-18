@@ -18,7 +18,7 @@ public class Field {
         Monster e = monsterList.get(1);
         Runnable playerTurn = () -> {
             p.showMove();
-            System.out.print("select attack method:");
+            System.out.print("select method of attack:");
             int waza;
             Scanner input = new Scanner(System.in);
             waza = input.nextInt();
