@@ -7,7 +7,7 @@ public class Integer {
 
     public Integer() {
         Random ran = new Random();
-        n = ran.nextInt(6);
+        n = ran.nextInt(6)+1;
     }
 
     public int getN() {
